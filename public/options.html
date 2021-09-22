@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Vend Extend - Options</title>
+    <link rel="stylesheet" href="./src/css/options.css">
+</head>
+
+<body>
+
+    <h1>Vend Extend</h1>
+    <p id="extension-info">
+        Version: 0.1<br>
+        Author: Alex Nguyen<br>
+        Source Code: <a href="https://github.com/alexnguyennz/vendextend" target="_blank">GitHub</a>
+    </p>
+
+    <h2>Show/Hide Options</h2>
+
+    <details open>
+        <summary>Sell Screen</summary>
+        <div id="options">
+            
+        </div>
+    </details>
+
+    <!--
+        <details open>
+            <summary>Sell Screen</summary>
+                <div><input type="checkbox" name="hideElements" id="sellAltHotkey"><label for="sellAltHotkey"> Hide ALT hotkey tooltips.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellCustomerSearch"><label for="sellCustomerSearch"> Hide customer search field.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellSupplementaryText"><label for="sellSupplementaryText"> Hide supplementary text under each line item.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellDiscount"><label for="sellDiscount"> Hide Discount field in each line item.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellNotePlaceholder"><label for="sellNotePlaceholder"> Hide placeholder text in Notes field under each line item.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellInventoryDetails"><label for="sellInventoryDetails"> Hide "Show Inventory & Details" under each line item.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellAddTaxSection"><label for="sellAddTaxSection"> Hide ADD (Discount, Promo Code, Note) and Tax sections below each sale.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellHelp"><label for="sellHelp"> Hide Help link in top right.</label></div>
+                <div><input type="checkbox" name="hideElements" id="sellNotifications"><label for="sellNotifications"> Hide Notifications icon in top right.</label></div>
+        </details>
+
+        <details open>
+            <summary>Pay Screen</summary>
+                <div><input type="checkbox" name="hideElements" id="payTax"><label for="payTax"> Hide tax amounts in sales summary.</label></div>
+                <div><input type="checkbox" name="hideElements" id="payTotalSavings"><label for="payTotalSavings"> Hide Total Savings row in sales summary.</label></div>
+                <div><input type="checkbox" name="hideElements" id="payAddCustomer"><label for="payAddCustomer"> Hide Add a customer field below Payment Types.</label></div>
+                <div><input type="checkbox" name="hideElements" id="payOptionalPayments"><label for="payOptionalPayments"> Hide optional payment options (Layby, Store Credit, On Account).</label></div>
+        </details>
+
+        <details open>
+            <summary>Completed Sale Screen</summary>
+                <div><input type="checkbox" name="hideElements" id="completedPrintGiftReceipts"><label for="completedPrintGiftReceipts"> Hide Print and Gift Receipt buttons above Complete Sale button.</label></div>
+                <div><input type="checkbox" name="hideElements" id="completedAddCustomer"><label for="completedAddCustomer"> Hide "Add customer to email them a receipt" input field above Complete Sale button.</label></div>
+        </details>
+
+        <details open>
+            <summary>Close Register Screen</summary>
+                <div><input type="checkbox" name="hideElements" id="closeBasicDesc"><label for="closeBasicDesc"> Hide "Close your register to finalize payments and sales for the day." text.</label></div>
+                <div><input type="checkbox" name="hideElements" id="closePaymentsSummaryDesc"><label for="closePaymentsSummaryDesc"> Hide "Payments Summary" description.</label></div>
+                <div><input type="checkbox" name="hideElements" id="closeStoreCredit"><label for="closeStoreCredit"> Hide Store Credit line under Payment Types.</label></div>
+                <div><input type="checkbox" name="hideElements" id="closeNotePlaceholder"><label for="closeNotePlaceholder"> Hide placeholder text in Notes under Closing Summary.</label></div>
+        </details>
+
+        -->
+
+        <br>
+        <div>
+            <p class="submit-buttons">
+                <button id="save-options">Save</button>
+                <button id="reset-options">Reset</button>
+                <span id="message"></span>
+            </p>
+        </div>
+
+<script type="module" src="./src/js/options.js"></script>
+
+</body>
+
+</html>

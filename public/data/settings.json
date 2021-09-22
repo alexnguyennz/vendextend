@@ -1,0 +1,84 @@
+{
+    "css": {
+        "sellAltHotkey": [
+                            ".show-hotkey-tips [data-hotkey-tip]:not(:disabled):after, .show-hotkey-tips [data-hotkey-tip]:not(:disabled):before { display: none !important; }", 
+                            "Hide ALT hotkey tooltips."
+                        ],
+        "sellCustomerSearch": [
+                            ".sale-header > .wr-customer-search { display: none !important; }",
+                            "Hide customer search field."
+                        ],
+        "sellSupplementaryText": [
+                            ".li-cell-summary .vd-text-supplementary { display: none !important; }",
+                            "Hide supplementary text under each line item."
+        ],
+        "sellDiscount": [
+                        ".pro-line-item-discount { visibility: hidden !important; }",
+                        "Hide Discount field in each line item."
+        ],
+        "sellNotePlaceholder": [
+            ".vd-pb1 .vd-value textarea.vd-input::placeholder { color: white; }",
+            "Hide placeholder text in Notes field under each line item."
+        ],
+        "sellInventoryDetails": [
+            ".li-cell-actions-container-info { display: none !important; }",
+            "Hide 'Show Inventory & Details' under each line item."
+        ],
+        "sellLoadingProductInfo": [
+            ".li-cell-actions-container--expanded > .li-cell-actions-container-section > .li-cell-actions--calculating { display: none !important; }",
+            " Hide 'Loading production information' under each line item as it is added"
+        ],
+        "sellAddTaxSection": [
+            ".sale-list-footer { display: none !important; }",
+            "Hide ADD (Discount, Promo Code, Note) and Tax sections below each sale."
+        ],
+        "sellHelp": [
+            "#nav-help-link { display: none !important; }",
+            "Hide Help link in top right."
+        ],
+        "sellNotifications": [
+            ".vd-nav-item-action > .fa-bell { display: none !important; }",
+            "Hide Notifications icon in top right."
+        ],
+        "payTax": [
+            ".vd-scrollable > .sale-summary-section--indent { display: none !important; }",
+            "Hide tax amounts in sales summary."
+        ],
+        "payTotalSavings": [
+            ".sale-summary-content .sale-summary-section:last-child { display: none !important; }",
+            "Hide Total Savings row in sales summary."
+        ],
+        "payAddCustomer": [
+            ".payment-panel-content .payment-add-customer { display: none !important; }",
+            "Hide Add a customer field below Payment Types."
+        ],
+        "payOptionalPayments": [
+            ".payment-panel-content #confirmed-payment-options-group { display: none !important; }",
+            "Hide optional payment options (Layby, Store Credit, On Account)."
+        ],
+        "completedPrintGiftReceipts": [
+            ".sale-confirmation-container > .vd-btn-group > .vd-btn--text-supplementary:last-child { display: none !important; }",
+            "Hide Print and Gift Receipt buttons above Complete Sale button."
+        ],
+        "completedAddCustomer": [
+            ".sale-confirmation-container > .vd-autocomplete-input-container { display: none !important; }",
+            "Hide 'Add customer to email them a receipt' input field above Complete Sale button."
+        ],
+        "closeBasicDesc": [
+            ".wr-register-closure-view > .vd-section--secondary { display: none !important; }",
+            "Hide 'Close your register to finalize payments and sales for the day.' text."
+        ],
+        "closePaymentsSummaryDesc": [
+            ".wr-register-closure-info-section > .vd-g-row > .vd-grid-settings-item > p.vd-p { display: none !important; }",
+            "Hide 'Payments Summary' description."
+        ],
+        "closeStoreCredit": [
+            ".wr-register-closure-info-section .vd-table tr.wr-closure-summary-table-row--last { display: none !important; } ",
+            "Hide Store Credit line under Payment Types."
+        ],
+        "closeNotePlaceholder": [
+            ".vd-g-row .vd-field .vd-value textarea.vd-textarea::placeholder { color: white; } ",
+            "Hide placeholder text in Notes under Closing Summary."
+        ]
+    }
+}

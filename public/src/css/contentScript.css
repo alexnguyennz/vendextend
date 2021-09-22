@@ -1,0 +1,78 @@
+/* *** SALES SCREEN *** */
+
+/* Hide alt shortcuts/hotkey tooltips that show up e.g. when you press ALT + TAB keys. */
+.show-hotkey-tips [data-hotkey-tip]:not(:disabled):after, .show-hotkey-tips [data-hotkey-tip]:not(:disabled):before { display: none !important; }
+
+
+/* Hide folder count number in top right corner of quick keys. */
+.vd-quick-key > .vd-quick-key-inner > .vd-quick-key-folder-count { display: none !important; }
+
+/* Hide customer search box above item list. */
+.sale-header > .wr-customer-search { display: none !important; }
+
+/* Hide Designer or High Street supplementary text underneath each line item name. */
+.li-cell-summary .vd-text-supplementary { display: none !important; }
+
+/* Hide discount counter in line item. Use visibility instead of display to keep layout of quantity and price input fields. */
+.pro-line-item-discount { visibility: hidden !important; }
+
+/* Hide placeholder text in Notes under each line item. */
+.vd-pb1 .vd-value textarea.vd-input::placeholder { color: white; }
+
+/* Hide "Show Inventory & Details" below each line item. */
+.li-cell-actions-container-info { display: none !important; }
+
+/* Hide "Loading production information" under each line item as it is added - used in combination with opening new line items as they're added. */
+.li-cell-actions-container--expanded > .li-cell-actions-container-section > .li-cell-actions--calculating { display: none !important; }
+
+/* Hide ADD section and Tax section below each sale. */ 
+.sale-list-footer { display: none !important; }
+
+/* Hide Help button in top right. */
+#nav-help-link { display: none !important; }
+
+/* Hide bell icon in top right. */
+.vd-nav-item-action > .fa-bell { display: none !important; }
+
+
+/* *** PAY SCREEN *** */
+
+/* Hide Sub-total and Tax lines in sales summary on left part of page. */
+.vd-scrollable > .sale-summary-section--indent { display: none !important; }
+
+/* TEST Hide Total Savings row in sales summary. this also hides the sales summary in completed sale entirely */
+.sale-summary-content .sale-summary-section:last-child { display: none !important; }
+
+/* Hide Add Customer section on pay screen. */
+.payment-panel-content .payment-add-customer { display: none !important; }
+
+/* Hide optional payment options of Layby, Store Credit, On Account. */
+.payment-panel-content #confirmed-payment-options-group { display: none !important; }
+
+
+/* *** COMPLETED SALE SCREEN *** */
+
+/* Hide Gift Receipt buttons above Complete Sale button. */
+.sale-confirmation-container > .vd-btn-group > .vd-btn--text-supplementary:last-child { display: none !important; }
+
+/* Hide "Add customer to email them a receipt" input field above Complete Sale button. */
+.sale-confirmation-container > .vd-autocomplete-input-container { display: none !important; }
+
+/* could do hide total savings as well */
+
+
+
+
+/* *** CLOSE REGISTER SCREEN *** */
+
+/* Hide "Close your register to finalize payments and sales for the day." text below Close Register main heading. */
+.wr-register-closure-view > .vd-section--secondary { display: none !important; }
+
+/* Hide "Payments Summary" description. */
+.wr-register-closure-info-section > .vd-g-row > .vd-grid-settings-item > p.vd-p { display: none !important; }
+
+/* Hide "Store Credit" line under "Payment Types". Potentially risky one; it doesn't identify Store Credit. */
+.wr-register-closure-info-section .vd-table tr.wr-closure-summary-table-row--last { display: none !important; } 
+
+/* Hide placeholder text in Notes under Closing Summary. */
+.vd-g-row .vd-field .vd-value textarea.vd-textarea::placeholder { color: white; }
